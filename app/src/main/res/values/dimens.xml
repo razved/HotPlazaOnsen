@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginLeftLogo">28dp</dimen>
+    <dimen name="margin8dp">8dp</dimen>
+    <dimen name="margin22dp">22dp</dimen>
+    <dimen name="margin16dp">16dp</dimen>
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.hotplazaonsen.MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/onsenLogoImg"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="@dimen/marginLeftLogo"
+                android:layout_marginTop="@dimen/margin8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/onsenlogo" />
+
+            <TextView
+                android:id="@+id/asamaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin22dp"
+                android:layout_marginTop="@dimen/margin22dp"
+                android:layout_toRightOf="@id/onsenLogoImg"
+                android:text="@string/asamaonsen"
+                android:textAllCaps="true"
+                android:textColor="@color/bigHeaderColor"
+                android:textSize="48sp" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="@dimen/margin8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/main" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hot_plaza"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/bigHeaderColor"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin8dp"
+            android:layout_marginTop="@dimen/margin8dp"
+            android:text="@string/contact_information"
+            android:textColor="@color/headerColor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin16dp"
+                android:layout_marginTop="@dimen/margin8dp"
+                android:text="@string/tel"
+                android:textColor="@color/headerColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin16dp"
+                android:layout_marginTop="@dimen/margin8dp"
+                android:layout_toRightOf="@id/tel"
+                android:text="@string/phoneNumber"
+                android:autoLink="phone"
+                android:textSize="16sp"
+                android:textColorLink="@color/linkColor"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/adress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin16dp"
+                android:layout_marginRight="@dimen/margin8dp"
+                android:layout_marginTop="@dimen/margin8dp"
+                android:text="@string/adress"
+                android:textColor="@color/headerColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin8dp"
+                android:layout_toRightOf="@id/adress"
+                android:text="@string/fullAdress"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin16dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/operation_hours"
+                android:textColor="@color/headerColor"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin8dp"
+                android:layout_marginTop="@dimen/margin8dp"
+                android:layout_toRightOf="@id/hours"
+                android:text="@string/hoursValue"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginRight="@dimen/margin16dp"
+            android:layout_marginTop="8dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="@string/webSite"
+            android:textAlignment="center"
+            android:textColorLink="@color/linkColor"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin16dp"
+            android:layout_marginRight="@dimen/margin16dp"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="6dp"
+            android:text="@string/businessInfo"
+            android:textColor="@color/textColor" />
+    </LinearLayout>
+</ScrollView>

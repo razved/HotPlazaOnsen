@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hot Plaza Onsen</string>
+    <string name="asamaonsen">浅間温泉</string>
+    <string name="hot_plaza">HOT PLAZA ASAMA ONSEN</string>
+    <string name="contact_information">Contact information:</string>
+    <string name="tel">Phone:</string>
+    <string name="phoneNumber">0263-46-6278</string>
+    <string name="adress">Adress:</string>
+    <string name="fullAdress">Nagano prefecture, Matsumoto city, Asama Onsen 3-16-3</string>
+    <string name="operation_hours">Operation Hours:</string>
+    <string name="hoursValue">10:00 - 24:00</string>
+    <string name="webSite">http://www.asamaonsen.com/en/sotoyu</string>
+    <string name="businessInfo">A stay at a Japanese Ryokan is a must do for any authentic Japanese travel experience. There, the height of Japanese culture and hospitality will transport you into a timeless world, in which you will be pampered with the fine simplicity of Japanese life.</string>
+</resources>
